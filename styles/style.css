@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;    /*definindo a fonte para a páginas como um todo */
+    color:#620554
+    
+}
+
+.container {
+    display: flex; /* Definindo o display flex */
+    flex-direction: column;
+}
+
+.header {  /*Configuracoes para o header da pagina, atraves da classe header */
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #620554;
+    text-align: center;
+    color: white; 
+}
+
+.menu {   /*Configuracoes para o menu para que a lista permaneca alinhada na mesma linha */
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.sobre-mim { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.h1titulo {
+  
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.foto {
+    width: 20rem;
+    justify-content: center;
+    
+
+}
+
+footer {
+    background-color: #620554;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+a,   /*definicao da decoracao do link com borda */
+a:link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid #620554 1px;
+}
+
+li {
+    float: left;
+}
+
+a:hover {   /*mudara a cor do link quando o mouse for passado em cima */
+    background-color:#620554;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon { /*definicao para todos os icones com espacamento a direita */
+    margin-right: 10px;
+    width: 2rem;
+}
+
+/*a seguir definindo o estilo dos itens do formulario */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #890370; /* Fundo rosa */
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.contact-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formacao{
+    display: flex;
+    flex-direction: column; /* exibir os itens verticalmente */
+    list-style-type: none;
+    padding: 0;
+}
+ .li {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    font-weight: b;
+
+ }
+
+.subitem {
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 20px; /* Recuo para os subitens */
+}
+
+
+
+    
+}
